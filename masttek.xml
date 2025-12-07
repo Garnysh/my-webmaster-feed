@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2024-12-19 00:00">
+<shop>
+    <name>МАСТ - ТЭК</name>
+    <company>МАСТ - ТЭК</company>
+    <url>https://mast-tek.ru</url>
+    <currencies>
+        <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+        <category id="1">Вывоз мусора</category>
+    </categories>
+    
+    <!-- Сеты для группировки услуг -->
+    <sets>
+        <set id="gazel" name="Вывоз мусора Газелью" url="https://mast-tek.ru/gazel"/>
+        <set id="samosval" name="Вывоз мусора самосвалом" url="https://mast-tek.ru/samosval"/>
+        <set id="puhto" name="Аренда контейнеров ПУХТО" url="https://mast-tek.ru/konteiner"/>
+    </sets>
+    
+    <offers>
+        <!-- Предложения Газелей -->
+        <offer id="1" available="true">
+            <name>Вывоз мусора Газелью 6м3</name>
+            <description>Вывоз строительного мусора. Время бесплатной погрузки 1 ч. Погрузка 500 р./час. Цена от 8 000 руб. Грузоподъемность 1,5 т.</description>
+            <url>https://mast-tek.ru/gazel</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/2757887/2a0000019abf79c05a23691e9f0c18e0a92e/orig</picture>
+            <price>8000</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>gazel</set-ids>
+            <param name="Тип машины">Газель</param>
+            <param name="Объем" unit="м3">6</param>
+            <param name="Грузоподъемность" unit="т">1.5</param>
+            <param name="Время бесплатной погрузки" unit="ч">1</param>
+            <param name="Стоимость погрузки" unit="руб/ч">500</param>
+        </offer>
+        
+        <offer id="2" available="true">
+            <name>Вывоз мусора Газелью 9м3</name>
+            <description>Вывоз строительного мусора. Время бесплатной погрузки 1 час. Погрузка 500 р./час. Цена от 9 500 руб. Грузоподъемность 2 т.</description>
+            <url>https://mast-tek.ru/gazel</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/2757887/2a0000019abf79c05a23691e9f0c18e0a92e/orig</picture>
+            <price>9500</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>gazel</set-ids>
+            <param name="Тип машины">Газель</param>
+            <param name="Объем" unit="м3">9</param>
+            <param name="Грузоподъемность" unit="т">2</param>
+            <param name="Время бесплатной погрузки" unit="ч">1</param>
+            <param name="Стоимость погрузки" unit="руб/ч">500</param>
+        </offer>
+        
+        <offer id="3" available="true">
+            <name>Вывоз мусора Газелью 12м3</name>
+            <description>Вывоз строительного мусора. Время бесплатной погрузки 1 час. Погрузка 500 р./час. Цена от 11 000 руб. Грузоподъемность 3 т.</description>
+            <url>https://mast-tek.ru/gazel</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/2757887/2a0000019abf79c05a23691e9f0c18e0a92e/orig</picture>
+            <price>11000</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>gazel</set-ids>
+            <param name="Тип машины">Газель</param>
+            <param name="Объем" unit="м3">12</param>
+            <param name="Грузоподъемность" unit="т">3</param>
+            <param name="Время бесплатной погрузки" unit="ч">1</param>
+            <param name="Стоимость погрузки" unit="руб/ч">500</param>
+        </offer>
+        
+        <offer id="4" available="true">
+            <name>Вывоз мусора Газелью 3м3</name>
+            <description>Вывоз строительного мусора. Время бесплатной погрузки 1 ч. Погрузка 500 р./час. Цена от 5 000 руб. Грузоподъемность 1 т.</description>
+            <url>https://mast-tek.ru/gazel</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/2757887/2a0000019abf79c05a23691e9f0c18e0a92e/orig</picture>
+            <price>5000</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>gazel</set-ids>
+            <param name="Тип машины">Газель</param>
+            <param name="Объем" unit="м3">3</param>
+            <param name="Грузоподъемность" unit="т">1</param>
+            <param name="Время бесплатной погрузки" unit="ч">1</param>
+            <param name="Стоимость погрузки" unit="руб/ч">500</param>
+        </offer>
+        
+        <!-- Предложения Самосвалов -->
+        <offer id="5" available="true">
+            <name>Вывоз мусора Самосвалом 20м3</name>
+            <description>Вывоз строительного мусора. Время бесплатной погрузки 30 минут. Погрузка 2500 р./час. Цена от 26 000 руб.</description>
+            <url>https://mast-tek.ru/samosval</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/3911103/2a0000019abf757aaa8c827dcd0a9ec7162e/orig</picture>
+            <price>26000</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>samosval</set-ids>
+            <param name="Тип машины">Самосвал</param>
+            <param name="Объем" unit="м3">20</param>
+            <param name="Время бесплатной погрузки" unit="мин">30</param>
+            <param name="Стоимость погрузки" unit="руб/ч">2500</param>
+        </offer>
+        
+        <offer id="6" available="true">
+            <name>Вывоз мусора Самосвалом МАЗ 18м3</name>
+            <description>Вывоз строительного мусора. Время бесплатной погрузки 30 минут. Погрузка 2500 р./час. Цена от 24 000 руб.</description>
+            <url>https://mast-tek.ru/samosval</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/3911103/2a0000019abf757aaa8c827dcd0a9ec7162e/orig</picture>
+            <price>24000</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>samosval</set-ids>
+            <param name="Тип машины">Самосвал МАЗ</param>
+            <param name="Объем" unit="м3">18</param>
+            <param name="Время бесплатной погрузки" unit="мин">30</param>
+            <param name="Стоимость погрузки" unit="руб/ч">2500</param>
+        </offer>
+        
+        <!-- Предложения ПУХТО -->
+        <offer id="7" available="true">
+            <name>ПУХТО 36 м3 20 т</name>
+            <description>Аренда контейнера. Время бесплатной погрузки 3 часа. Аренда сутки 3 000 руб. Вывоз пухто от 38 000 руб.</description>
+            <url>https://mast-tek.ru/konteiner</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/2757887/2a0000019abf2068c4b7ef1b96738b98158f/orig</picture>
+            <price>38000</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>puhto</set-ids>
+            <param name="Тип услуги">Аренда контейнера</param>
+            <param name="Объем" unit="м3">36</param>
+            <param name="Грузоподъемность" unit="т">20</param>
+            <param name="Время бесплатной погрузки" unit="ч">3</param>
+            <param name="Аренда в сутки" unit="руб">3000</param>
+        </offer>
+        
+        <offer id="8" available="true">
+            <name>ПУХТО 27 м3 10 т</name>
+            <description>Аренда контейнера. Время бесплатной погрузки 3 часа. Погрузка 1000 р./час. Аренда 14 000 руб./мес. Вывоз пухто от 28 500 руб.</description>
+            <url>https://mast-tek.ru/konteiner</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/2757887/2a0000019abf1fbc41006cafa141eea3475d/orig</picture>
+            <price>28500</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>puhto</set-ids>
+            <param name="Тип услуги">Аренда контейнера</param>
+            <param name="Объем" unit="м3">27</param>
+            <param name="Грузоподъемность" unit="т">10</param>
+            <param name="Время бесплатной погрузки" unit="ч">3</param>
+            <param name="Стоимость погрузки" unit="руб/ч">1000</param>
+            <param name="Аренда в месяц" unit="руб">14000</param>
+        </offer>
+        
+        <offer id="9" available="true">
+            <name>ПУХТО 27 м3 20 т</name>
+            <description>Аренда контейнера. Время бесплатной погрузки 3 часа. Погрузка 1000 р./час. Вывоз пухто от 32 000 руб.</description>
+            <url>https://mast-tek.ru/konteiner</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/4079840/2a0000019abf1ea95c15600eff9d2417b2ee/orig</picture>
+            <price>32000</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>puhto</set-ids>
+            <param name="Тип услуги">Аренда контейнера</param>
+            <param name="Объем" unit="м3">27</param>
+            <param name="Грузоподъемность" unit="т">20</param>
+            <param name="Время бесплатной погрузки" unit="ч">3</param>
+            <param name="Стоимость погрузки" unit="руб/ч">1000</param>
+        </offer>
+        
+        <offer id="10" available="true">
+            <name>ПУХТО 20 м3</name>
+            <description>Аренда контейнера. Время бесплатной погрузки 3 часа. Погрузка 1000 р./час. Вывоз пухто от 26 500 руб.</description>
+            <url>https://mast-tek.ru/konteiner</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/2893106/2a0000019abf1de44dbf0ce4cc84ae0fa1bb/orig</picture>
+            <price>26500</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>puhto</set-ids>
+            <param name="Тип услуги">Аренда контейнера</param>
+            <param name="Объем" unit="м3">20</param>
+            <param name="Время бесплатной погрузки" unit="ч">3</param>
+            <param name="Стоимость погрузки" unit="руб/ч">1000</param>
+        </offer>
+        
+        <offer id="11" available="true">
+            <name>ПУХТО 14м3</name>
+            <description>Аренда контейнера. Время бесплатной погрузки 2 часа. Стоимость погрузки 1000 р./час. Вывоз пухто от 21 000 руб.</description>
+            <url>https://mast-tek.ru/konteiner</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/4079840/2a0000019abf1d0b983e652aa46a7797a979/orig</picture>
+            <price>21000</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>puhto</set-ids>
+            <param name="Тип услуги">Аренда контейнера</param>
+            <param name="Объем" unit="м3">14</param>
+            <param name="Время бесплатной погрузки" unit="ч">2</param>
+            <param name="Стоимость погрузки" unit="руб/ч">1000</param>
+        </offer>
+        
+        <offer id="12" available="true">
+            <name>ПУХТО 10 м3</name>
+            <description>Аренда контейнера. Время бесплатной погрузки 1 час. Аренда первые сутки 2 000 руб, вторые сутки 1 000 руб. Вывоз пухто от 20 000 руб.</description>
+            <url>https://mast-tek.ru/konteiner</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/17712810/2a0000019abf1bb4edeff299a928be18ccd1/orig</picture>
+            <price>20000</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>puhto</set-ids>
+            <param name="Тип услуги">Аренда контейнера</param>
+            <param name="Объем" unit="м3">10</param>
+            <param name="Время бесплатной погрузки" unit="ч">1</param>
+            <param name="Аренда первые сутки" unit="руб">2000</param>
+            <param name="Аренда вторые сутки" unit="руб">1000</param>
+        </offer>
+        
+        <offer id="13" available="true">
+            <name>ПУХТО 6м3</name>
+            <description>Аренда контейнера. Долгосрочная аренда (от 6 мес.). Цена аренды 5 000 руб./мес. Вывоз пухто от 9 500 руб.</description>
+            <url>https://mast-tek.ru/konteiner</url>
+            <picture>https://avatars.mds.yandex.net/get-sprav-products/2773996/2a0000019abf1ab6c53e743f9c50e4651592/orig</picture>
+            <price>9500</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <set-ids>puhto</set-ids>
+            <param name="Тип услуги">Аренда контейнера</param>
+            <param name="Объем" unit="м3">6</param>
+            <param name="Аренда в месяц" unit="руб">5000</param>
+        </offer>
+    </offers>
+</shop>
+</yml_catalog>
